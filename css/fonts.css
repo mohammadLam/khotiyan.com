@@ -1,0 +1,19 @@
+@font-face{
+    font-family: 'bangla light';
+    src: url("font/NotoSansBengali-Light.ttf");
+}
+
+@font-face{
+    font-family: 'bangla regular';
+    src: url("font/NotoSansBengali-Regular.ttf");
+}
+
+@font-face{
+    font-family: 'english regular';
+    src: url("font/Roboto-Regular.ttf");
+}
+
+@font-face{
+    font-family: 'english light';
+    src: url("font/Roboto-Light.ttf");
+}

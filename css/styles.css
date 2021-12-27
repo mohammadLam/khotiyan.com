@@ -1,0 +1,370 @@
+:root{
+    --primary: #007bff;
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+    outline: 0px;
+    font-family: "english light","bangla light";
+}
+
+
+body {
+    /*background-image: linear-gradient(15.69deg, #e8f0fe 10.16%, rgba(255, 255, 255, 0) 89.84%);*/
+    min-height: 100vh;
+    position: relative;
+    padding-bottom: 63px;
+}
+
+
+/*website logo text size*/
+.navbar-brand{
+    font-size: 25px;
+    color: #252525;
+    font-family: "bangla regular";
+}
+
+.success {
+    color: green;
+}
+
+.myshadow{box-shadow: rgba(50, 50, 105, 0.15) 0px 2px 5px 0px, rgba(0, 0, 0, 0.05) 0px 1px 1px 0px;}
+
+.error {
+    color: red;
+}
+
+
+/*bootstrap navigation a tag*/
+.nav-link{
+    font-size: 19px;
+}
+
+.navbar{
+    background: #efefef;
+    user-select: none;
+}
+
+.navbar .nav-link{
+    color: #393939;
+}
+
+.navbar .navbar-toggler{
+    color: #ffffff;
+    border: none;
+}
+.navbar .navbar-toggler:focus{
+    outline: 0;
+}
+
+.logout, .login{
+    color: red!important;
+    font-family: "bangla regular";
+}
+/*<======================= header start =============================>*/
+#header {
+    width: 100%;
+    height: 60px;
+    display: block;
+}
+
+.inner_header {
+    width: 90%;
+    height: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+.logo_container {
+    height: 100%;
+    display: table;
+    float: left;
+}
+
+.logo_container h2 {
+    height: 100%;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.logo_container h2 a {
+    text-decoration: none;
+    color: #393939;
+}
+
+#navigation {
+    float: right;
+    height: 100%;
+    list-style-type: none;
+}
+
+#navigation a {
+    height: 100%;
+    display: table;
+    float: left;
+    padding: 0 20px;
+    text-decoration: none;
+    color: #393939;
+}
+
+#navigation a:last-child {
+    color: red;
+    font-weight: bold;
+    padding-right: 0px;
+}
+
+#navigation a li {
+    height: 100%;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+/*<======================= header ended =============================>*/
+
+
+/*<======================= Button start =============================>*/
+
+.plus_btn {
+    padding: 2px 20px;
+    background-color: #599c5c;
+    border-radius: 5px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    color: #fff;
+    text-align: center;
+    cursor: pointer;
+}
+
+.plus_btn:hover {
+    background-color: #549157;
+}
+
+label{
+    font-size: 17px;
+}
+
+.form-input {
+    margin-bottom: 15px;
+}
+
+.style_input {
+    display: block;
+    width: 100%;
+    padding: .2em .6em;
+    vertical-align: middle;
+    transition: border-color .5s ease-in-out, box-shadow .5s ease-in-out;
+    border: 2px solid #efefef;
+    border-radius: 5px;
+    background: #fbfbfb;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.style_input:hover{
+    outline: 0;
+    border-color: #71b7ff;
+}
+
+.style_input:focus {
+    outline: 0;
+    border-color: #71b7ff;
+    /*box-shadow: 0px 0px 5px #007bff;*/
+}
+
+.gradient_btn {
+    padding: 8px 16px;
+    /*background-image: linear-gradient(to left, #12cbc4, #0652DD ,#12CBC4);*/
+    /*background-image: linear-gradient(to left, #C4E538, #009432,#C4E538);*/
+    background-image: linear-gradient(to left, #4776e6, #7fc9ff,#4776e6);
+    background-size: 200%;
+    transition: 0.6s;
+    border: none;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.gradient_btn:hover {
+    background-position: right;
+}
+
+/*<======================= Button ended =============================>*/
+
+/************************* default table start *****************************/
+.table-list {
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.15);
+    background: #fff;
+    overflow: hidden;
+}
+
+.table-list tr th {
+    background: #4caf50;
+    color: #ffffff;
+}
+
+tr:nth-child(odd) {
+    background: #f5f5f5;
+}
+
+.table-list th, .table-list td {
+    padding: 5px 15px;
+    border-top: 0px;
+}
+
+.table-list tr:last-child {
+    border-bottom: 3px solid #4caf50;
+}
+
+/*<======================= default table end =============================>*/
+
+.container h2{
+    margin: 10px 0px;
+}
+
+#navigation a li:before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: -100%;
+    width: 100%;
+    height: 2px;
+    background: coral;
+    transition: .5s;
+}
+
+#navigation a li:hover:before {
+    left: 0;
+}
+
+.notfound {
+    color: red;
+    background: linear-gradient(to right, rgba(252, 234, 233, 0), #fceae9, rgba(252, 234, 233, 0));
+    text-align: center;
+    margin: 10px 0px;
+}
+
+.notfound h3{
+    padding: 10px 0px;
+}
+
+/*<======================= account section start =============================>*/
+.my_account_section{
+    border-radius: 10px;
+    background: #fff;
+}
+
+.my_account_section .first_letter_logo{
+    background: orange;
+    color: white;
+    font-size: 50px;
+    line-height: 70px;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.first_letter_logo{
+    background: orange;
+    color: white;
+    font-size: 35px;
+    line-height: 50px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.balance_section{
+    color: white;
+    border-radius: 10px;
+}
+
+.chang_password_section{
+    border-radius: 10px;
+}
+/*<======================= account section end =============================>*/
+
+
+/*dashboard section start*/
+
+.service-box{
+    text-align: center;
+    cursor: pointer;
+}
+
+.service-box i.fa{
+    color: #ff794d;
+    font-size: 70px;
+    margin-bottom: 15px;
+}
+
+/* <=======================scrollbar design =======================*/
+::-webkit-scrollbar{
+    width: 10px;
+    background-color: #EFEFEF;
+}
+::-webkit-scrollbar-thumb{
+   background: #343A40;
+}
+
+::-moz-scrolled-content{
+   background: red;
+}
+
+/* bangla font -----------------------------------------> */
+.bold-bn{
+    font-family: "bangla regular";
+}
+
+/* <======================= footer design =======================> */
+footer{
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    background: #c4c4c4;
+    color: white;
+    z-index: -1;
+}
+
+.footer-image{
+    position: absolute;
+    width: 100px;
+    bottom: 0;
+    right: 20px;
+    z-index: -1;
+}
+
+/* <======================= bootstrap design overwrite =======================> */
+
+table th{
+    font-weight: 100;
+}
+
+/* <======================= announcement design =======================> */
+.announcement{
+    background: #ff6868;
+}
+.announcement p{
+    font-size: 20px;
+    padding: 3px 0px;
+    color: white;
+}
+
+/* .announcement:before{
+    content: 'ঘোষণা';
+    position: absolute;
+    padding: 5px 25px;
+    font-size: 20px;
+    color: white;
+    background: #ff6a6a;
+    border-radius: 7px 0 0 5px;
+    z-index: 1;
+    box-shadow: inset rgb(0 0 0 / 32%) 0px 0px 8px 2px;
+} */

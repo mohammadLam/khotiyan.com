@@ -1,0 +1,85 @@
+.anim{
+
+    position: fixed;
+
+    width: 100%;
+
+    height: 100%;
+
+    overflow: hidden;
+
+    z-index: -1;
+
+}
+
+.hero-anim-bottom-left{
+
+    position: absolute;
+
+    left: -200px;
+
+    bottom: 0px;
+
+    width: 400px; height: 400px;
+
+    background-image: url("../animation/hero-anim-bottom-left.png");
+
+    animation: animate 10s linear infinite;
+
+}
+
+
+
+.hero-anim-middle{
+
+    position: absolute;
+
+    top: 50%;
+
+    left: 70%;
+
+    transform: translate(-50%, -50%);
+
+    width: 120px; height: 120px;
+
+    background-image: url("../animation/hero-anim-middle.png");
+
+    animation: animate 10s linear infinite;
+
+}
+
+
+
+.hero-anim-top-right{
+
+    position: absolute;
+
+    right: -270px;
+
+    top: -270px;
+
+    width: 540px; height: 540px;
+
+    background-image: url("../animation/hero-anim-top-right.png");
+
+    animation: animate 10s linear infinite;
+
+}
+
+
+
+@keyframes animate {
+
+    0%{
+
+        transform: rotate(0);
+
+    }
+
+    100%{
+
+        transform: rotate(360deg);
+
+    }
+
+}

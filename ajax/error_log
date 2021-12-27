@@ -1,0 +1,12 @@
+[10-Apr-2021 14:31:12 Asia/Dhaka] PHP Warning:  Use of undefined constant getKhoById - assumed 'getKhoById' (this will throw an Error in a future version of PHP) in /home/idzklkhr/public_html/ajax/ajax-khotiyan.php on line 75
+[10-Apr-2021 14:33:08 Asia/Dhaka] PHP Warning:  join(): Invalid arguments passed in /home/idzklkhr/public_html/ajax/ajax-khotiyan.php on line 75
+[10-Apr-2021 14:33:58 Asia/Dhaka] PHP Warning:  join(): Invalid arguments passed in /home/idzklkhr/public_html/ajax/ajax-khotiyan.php on line 77
+[10-Apr-2021 14:34:29 Asia/Dhaka] PHP Warning:  join(): Invalid arguments passed in /home/idzklkhr/public_html/ajax/ajax-khotiyan.php on line 77
+[10-Apr-2021 14:34:32 Asia/Dhaka] PHP Warning:  join(): Invalid arguments passed in /home/idzklkhr/public_html/ajax/ajax-khotiyan.php on line 77
+[10-Apr-2021 14:35:00 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Call to undefined function var_damp() in /home/idzklkhr/public_html/ajax/ajax-khotiyan.php:74
+Stack trace:
+#0 {main}
+  thrown in /home/idzklkhr/public_html/ajax/ajax-khotiyan.php on line 74
+[10-Apr-2021 14:35:22 Asia/Dhaka] PHP Warning:  join(): Invalid arguments passed in /home/idzklkhr/public_html/ajax/ajax-khotiyan.php on line 77
+[10-Apr-2021 14:42:50 Asia/Dhaka] PHP Warning:  join(): Invalid arguments passed in /home/idzklkhr/public_html/ajax/ajax-khotiyan.php on line 77
+[10-Apr-2021 14:43:31 Asia/Dhaka] PHP Warning:  join(): Invalid arguments passed in /home/idzklkhr/public_html/ajax/ajax-khotiyan.php on line 77
